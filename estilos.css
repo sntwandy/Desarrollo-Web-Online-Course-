@@ -1,0 +1,261 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    font-size: 40px;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0px;
+    /*text-transform: uppercase;*/
+}
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    /* padding-left: 10px; */
+}
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.project-course{
+    margin: 10px 0px;
+}
+
+.project-date{
+    margin: 10px 0px;
+}
+
+.project-url{
+    margin: 10px 0px;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project{
+    /* border: 1px solid gray; */
+    box-shadow: 3px 5px 33px #888888;
+    border-radius: 10px;    
+    /* margin-bottom: 15px; */
+    /* margin: 10px; */
+    padding: 20px;
+    padding-top: 5px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('./imagenes/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+    background-color: #1b2127;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background: #1b2127;
+    color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;;
+    align-items: center;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 10px;
+}
+
+ol,ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure{
+    margin:0px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-Fdiv{
+    padding-left: 10px;
+}
+
+.footer-Sdiv{
+    padding-right: 10px;
+}
+
+.event{
+    /* border: 1px solid black; */
+    box-shadow: 3px 5px 33px #888888;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+
+.event-list{
+    display: flex;
+    
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -60px;
+    padding: 10px;
+    /* padding-top: 1px; */
+    position: relative;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; 
+    justify-content: space-between;
+}
+
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.social-link.twitter{
+    background-image: url(/imagenes/platzi.png);
+    background-size: 50px 50px;
+}
+
+.social-link.github{
+    background-image: url(/imagenes/platzi.png);
+    background-size: 50px 50px;
+}
+
+.social-link.instagram{
+    background-image: url(/imagenes/platzi.png);
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url(/imagenes/platzi.png);
+    background-size: 50px 50px;
+}
+
+.form-email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url(/imagenes/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px; 
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;  
+    border-radius: 5px; 
+    width: 100px;
+    margin-top: 10px;
+    /* margin: 10 auto; */
+}
