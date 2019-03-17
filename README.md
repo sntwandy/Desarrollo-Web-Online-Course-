@@ -1,2 +1,2 @@
-# Desarrollo-Web-Online-Course-
+# Desarrollo-Web-Online-Course
 Course of Desarrollo Web Online with Platzi.
